@@ -1,0 +1,159 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: white;
+  width: 7%;
+  margin: 100px auto;
+}
+
+h1 {
+  position: relative;
+  z-index: 2;
+  color: #66bfbf;
+  font-size: 5.625rem;/*100%=16px so 90px=562.5%*/ /*also 16px=100%=1em*/
+  padding-top: 10%;
+  margin: 0%;
+  font-family: 'Sacramento', cursive;
+}
+p {
+  color: #40514E;
+  line-height: 2;
+}
+h2 {
+  z-index: 2;
+  color: #66bfbf;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  text-align: center;
+}
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color: #11999E;
+  margin: 10px 20px;
+}
+.top-cont {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-bottom: 5%;
+}
+.mid-cont {
+  width: 100%;
+  margin: 100px 0;
+}
+.intro {
+  width: 50%;
+  line-height: 2;
+  margin: auto;
+}
+.bott-cont {
+  width: 100%;
+  background-color: #66bfbf;
+  padding: 50px 0 30px;
+}
+.top-cloud {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.bott-cloud {
+  z-index: 1;
+  position: absolute;
+  top: 22%;
+  left: 5%;
+
+}
+.mountain {
+  position: relative;
+  margin: 0;
+}
+.skill-row {
+  margin: 80px auto 80px auto;
+  width: 50%;
+  text-align: left;
+}
+.Technical {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.Sports {
+  float: right;/*Use of clear: left or right with paragraph...if i want to print the paragraph below the image and heading in right*/
+  margin-left: 30px;
+  width: 25%;
+}
+.contact-msg {
+  width: 60%;
+  margin: 40px auto 60px;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999a);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999a);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999a);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999a);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999a);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bott-btn {
+  background: #a7d413;
+  background-image: -webkit-linear-gradient(top, #a7a77a, #99b485);
+  background-image: -moz-linear-gradient(top, #a7a77a, #99b485);
+  background-image: -ms-linear-gradient(top,  #a7a77a, #99b485);
+  background-image: -o-linear-gradient(top, #a7a77a, #99b485);
+  background-image: linear-gradient(to bottom,  #a7a77a, #99b485);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.bott-btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
